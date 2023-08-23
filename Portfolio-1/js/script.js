@@ -12,12 +12,17 @@ navBtn.addEventListener("click", ()=>{
         navBtn.style.border = "none"
         menu.style.marginTop ="-50rem";
         navBtn.style.transform = "rotate(0deg)";
+        menu.style.transition='1s';
+        navBtn.style.transition='1s';
     }else{
         menu.style.marginTop = "-5.5vh"
         navBtn.style.border = "3px solid aqua"
         navBtn.style.borderRadius = "100%";
         navBtn.style.boxShadow = " 2px 2px 10px aqua , -2px -2px 10px aqua" ;
         navBtn.style.transform = "rotate(-90deg)"
+        menu.style.transition='1s';
+        navBtn.style.transition='1s';
+
     }
 });
 

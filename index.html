@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Tilt+Neon&display=swap" rel="stylesheet">    
+    <title>Toxiic</title>
+    <link rel="icon" type="image/x-icon" href="./img/icon-img.png">
+</head>
+
+<body>
+    <!-- preloader -->
+    <div id="preloader"></div>
+    <!-- navbar  -->
+    <div>
+        <nav>
+            <ul>
+                <li><img id="toximg" src="./img/icon-img.png">
+                    <p id="navtxt">Toxiic</p>
+                </li>
+                <li><button id="navBttn" class="navBtn material-icons"
+                        style="font-weight: 200; font-size: 35px; color: greenyellow; background-color: #000000; border: none;">menu</button>
+                </li>
+            </ul>
+
+        </nav>
+    </div>
+    <!-- menubar -->
+    <div class="menuBar" id="menu">
+        <ul>
+            <li><a href="#home" onclick="menuup();">Home</a></li>
+            <li><a href="./music-player/index.html" onclick="menuup();">Listen Songs</a></li>
+            <li><a href="./certificates/certificate.html" onclick="menuup();">Certificates</a></li>
+            <li><a href="#contact" onclick="menuup();">Contact</a></li>
+        </ul>
+    </div>
+    <!-- home -->
+    <div id="home" class="home">
+        <ul>
+            <li>
+                <p>Hey there....<br>
+                    <span id="weltxt">Welcome</span> to my page.
+                </p>
+            </li>
+            <li><a href="#abouthead"><button>About <span>&#8623;</span></button></a></li>
+        </ul>
+        <img src="./img/home-img.png">
+    </div>
+    <!-- about -->
+    <div class="about" id="abouthead">
+        <h2
+            style="margin-top: 20px; color: aqua; text-decoration: underline red; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+            About</h2>
+        <p>This is <span class="special">Hanish</span> aka <span class="special">Toxiic</span>.<br>
+            Got hands on coding <span class="special">since 2019</span>. <br> But in web I got started in <span class="special">2023</span>.<br>
+            <icon  class="special" style="color: red;">&#60;&#47;&#62;</icon>
+        </p>
+        <div class="about-b">
+            <a href="#timeline"><button> Timeline <span>&#8623;</span></button></a>
+            <img src="./img/about-img.png">
+        </div>
+    </div>
+    <!-- timeline -->
+    <div class="timeline" id="timeline">
+        <h2 id="timeheading"
+            style="margin-top: 20px; color: aqua; text-decoration: underline red; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center;">
+            Timeline</h2>
+        <div class="time-groups">
+            <div class="time">
+                <div class="left"></div>
+                <div class="right">
+                    <h2 style="margin-left: -22px;"><span style="color: blue;">-</span> 2019</h2>
+                    <p>Started my programming <br> journey using <span class="special">Arduino</span></p>
+                </div>
+
+            </div>
+            <div class="time">
+                <div class="left"></div>
+                <div class="right">
+                    <h2 style="margin-left: -22px;"><span id="2020" style="color: blue;">-</span> 2020</h2>
+                    <p>Learnt some basics of <span class="special">Java</span></p>
+                </div>
+            </div>
+            <div class="time">
+                <div class="left"></div>
+                <div class="right">
+                    <h2 style="margin-left: -22px;"><span style="color: blue;">-</span> 2021</h2>
+                    <p>Learnt some basics of <br> hacking in <span class="special">Kali Linux</span></p>
+                </div>
+            </div>
+            <div class="time">
+                <div class="left"></div>
+                <div class="right">
+                    <h2 style="margin-left: -22px;"><span style="color: blue;">-</span> 2022</h2>
+                    <p>Taken addmission in <span class="special">poltech. CE</span></p>
+                </div>
+            </div>
+            <div class="time">
+                <div class="left"></div>
+                <div class="right">
+                    <h2 style="margin-left: -22px;"><span style="color: blue;">-</span> 2023</h2>
+                    <p>Got into <span class="special">Web Dev.</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="contbtn">
+            <a href="#contact"><button>Contact <span>&#8623;</span></button></a>
+        </div>
+    </div>
+    <!-- contact form -->
+    <div class="contact" id="contact">
+        <form>
+            <h2
+                style="margin-top: 20px; color: aqua; text-decoration: underline red; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center;">
+                Contact</h2>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" id="email" required>
+            <input type="number" placeholder="Phone no" id="phone" required>
+            <textarea placeholder="Enter Your Message Here..." id="message" rows="5" required></textarea>
+            <button type="submit" id="button">SEND</button>
+        </form>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="quote">
+            <h3></h3>
+        </div>
+        <div class="aclinks">
+            <ul>
+                <li><a href="https://www.instagram.com/toxiic.me_/" target="_blank"><img class="instaimg"
+                            src="./img/insta-icon.png"></a></li>
+                <li><a href="https://wa.me/+919671323707" target="_blank"><img class="wpimg"
+                            src="./img/wp-icon.webp"></a></li>
+            </ul>
+            <div style="text-align: center; line-height: 2; display: flex;
+            justify-content: center; flex-direction: column;">
+                <p style="margin-bottom: 3vh; color: cadetblue;">iamtoxiicman@gmail.com</p>
+                <p>Toxiic Copyrights <span>&#169;</span> 2023</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/script.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.6.4.js"
+  integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+  crossorigin="anonymous"></script>
+</html>

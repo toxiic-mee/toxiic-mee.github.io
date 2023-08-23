@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Clicker Script', cursive;
+    font-family: 'Tilt Neon', cursive;
+}
+
+body {
+    background-color: hsl(0, 0%, 19%);
+    overflow: scroll;
+    font-size: 1.2rem;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    background-color: #000000;
+    width: 100vw;
+    height: 5vh;
+    padding: 10px;
+    z-index: 2;
+    border-bottom: 1px solid greenyellow;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#home {
+    position: fixed;
+    top: -10px;
+    left: 4vw;
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #00a6ed;
+    z-index: 3;
+}
+#home:hover{
+    color: red;
+}
+
+#heading {
+    color: red;
+    margin-bottom: 23px;
+    margin-right: 14px;
+    padding: 5px 10px 5px 10px;
+    font-family: 'Clicker Script', cursive;
+    font-family: 'Tilt Neon', cursive;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px red, -2px -2px 15px red;
+    border: 2px solid red;
+}
+
+.album {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    z-index: 2;
+    font-size: 1.2rem;
+    margin-top: 8vh;
+    color: aqua;
+    height: 8vh;
+
+}
+
+#albumlist {
+    font-size: 1.2rem;
+    border: none;
+    background: none;
+    color: aqua;
+}
+
+#albumlist option {
+    background: #303030;
+    border: none;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#playbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.player {
+    margin-top: 1vh;
+    height: 45vh;
+    display: flex;
+    width: 80%;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.158);
+    border-radius: 30px;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#playimg {
+    margin-left: 22%;
+}
+
+.player img {
+    margin-top: 1vh;
+    width: 70%;
+    border: 1px solid yellow;
+    border-radius: 20px;
+}
+
+.player p {
+    margin-top: 2vh;
+    font-size: 1.2rem;
+    color: #00a6ed;
+   
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.player ul {
+    margin-top: -4vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    justify-content: space-around;
+
+}
+
+.player ul li {
+    color: white;
+    list-style: none;
+    font-size: 2rem;
+    margin-top: 6vh;
+    padding: 2px 10px 2px 10px;
+    border: none;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+    background-color: #00a6ed;
+}
+
+.player ul li:hover {
+    color: aliceblue;
+    border: 1px solid yellowgreen;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Clicker Script', cursive;
+    font-family: 'Tilt Neon', cursive;
+}
+
+.list h2 {
+    width: 80%;
+    color: aqua;
+    border: none;
+    background: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.list ul {
+    padding: 10px 0px 20px 0px;
+    width: 90%;
+    margin-top: -0.5vh;
+    border-radius: 10px;
+    list-style: none;
+    text-align: center;
+    line-height: 2;
+    color: aliceblue;
+    font-family: 'Clicker Script', cursive;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list ul li {
+    color: azure;
+    border-bottom: 1px solid;
+    width: 60%;
+    font-size: 1.2rem;
+    font-family: 'Clicker Script', cursive;
+    font-family: 'Tilt Neon', cursive;
+}
+
+.list ul li:hover {
+    color: #00a6ed;
+}
+
+h2 {
+    font-family: 'Clicker Script', cursive;
+    font-family: 'Tilt Neon', cursive;
+}
+
+h2:hover {
+    color: red;
+}
+#random{
+    font-size: 2.9rem;
+    font-weight: 900;
+}

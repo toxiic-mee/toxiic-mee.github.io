@@ -1,0 +1,49 @@
+const playbox = document.getElementById("playbox");
+const pausebtn = document.getElementById("pausebtn");
+pausebtn.style.width = "15vw"
+pausebtn.style.textAlign="center"
+pausebtn.style.fontSize = "2rem"
+const prevbtn = document.getElementById("prevbtn");
+prevbtn.style.display = "none"
+const nextbtn = document.getElementById("nextbtn");
+nextbtn.style.display = "none"
+const playimg = document.getElementById("playimg");
+const albumname = document.getElementById("albumname");
+const songname = document.getElementById("songname");
+const pic = document.getElementById("pic");
+const songk1 = new Audio("./king/tu_aake_dekhle.mp3")
+const songk2 = new Audio("./king/maan_meri_jaan.mp3")
+const songk3 = new Audio("./king/oops.mp3")
+const songk4 = new Audio("./king/pablo.mp3")
+const songk5 = new Audio("./king/ektarfa.mp3")
+const songk6 = new Audio("./king/iiconic.mp3")
+const songk7 = new Audio("./king/no_less.mp3")
+const songk8 = new Audio("./king/bazzi.mp3")
+const songk9 = new Audio("./king/mafia.mp3")
+const songh1 = new Audio("./hurnoor/wallian.mp3")
+const songh2 = new Audio("./hurnoor/parshawan.mp3")
+const songh3 = new Audio("./hurnoor/moonlight.mp3")
+const songh4 = new Audio("./hurnoor/jatta.mp3")
+const songh5 = new Audio("./hurnoor/tareefan.mp3")
+const songh6 = new Audio("./hurnoor/wah_kya_nazare.mp3")
+const songt1 = new Audio("./top-10/baazigar.mp3");
+const songt2 = new Audio("./top-10/black_beatles.mp3");
+const songt3 = new Audio("./top-10/attention.mp3");
+const songt4 = new Audio("./top-10/starboy.mp3");
+const songt5 = new Audio("./top-10/prisoner.mp3");
+const songt6 = new Audio("./top-10/kabhii_tumhhe.mp3");
+const songt7 = new Audio("./top-10/senorita.mp3");
+const songt8 = new Audio("./top-10/the_hills.mp3");
+const songt9 = new Audio("./top-10/misa_misa.mp3");
+const songt10 = new Audio("./top-10/i_wash_my_hands_in_blood.mp3");
+const albumlist = document.getElementById("albumlist");
+const songlist = document.getElementById("songlist");
+const heading = document.getElementById("heading")
+var loader = document.getElementsById("loader");
+var num = 0;
+// window.addEventListener('load', () => {
+//     loader.style.display = "none";
+// });
+
+
+

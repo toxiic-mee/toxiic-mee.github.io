@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#preloader {
+    background: url(/img/preloader-heart.gif) no-repeat;
+    background-size: 120%;
+    background-attachment: fixed;
+    background-position: -10vw 25vh;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: #fff;
+}
+
+body {
+    background-color: #303030;
+    overflow: scroll;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    background-color: #000000;
+    width: 100vw;
+    height: 5vh;
+    padding: 10px;
+    z-index: 99;
+    border-bottom: 1px solid greenyellow;
+    margin-top: 0;
+}
+nav p{
+    padding-top: 6px;
+    font-size: 1.5rem;
+    color: aqua;
+}
+nav img {
+    width: 9vh;
+    padding-top: 0px;
+    /* border-radius: 50%; */
+    float: left;
+
+}
+
+p {
+    display: inline-block;
+    font-size: 1.3rem;
+    font-family: 'Clicker Script', cursive;
+    font-family: 'Tilt Neon', cursive;
+    padding-top: 0.3vh;
+    color: yellowgreen;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.navBtn {
+    float: right;
+    position: fixed;
+    right: 0;
+    margin-right: 5vw;
+}
+
+.menuBar {
+    margin-top: -50rem;
+    padding: 6px;
+    list-style: none;
+    position: fixed;
+    width: 96.4%;
+    color: rgb(205, 50, 50);
+    border-top: 1px solid greenyellow;
+    background-color: rgba(5, 5, 5, 0.726);
+    text-align: center;
+    line-height: 4.8;
+    border-bottom: 0.1px dotted yellowgreen;
+    z-index: 99;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menuBar ul {
+    margin-bottom: 8vh;
+    margin-top: 1vh;
+}
+.menuBar li a {
+    color: palegreen;
+    text-decoration: none;
+    text-shadow: 2px 2px 35px yellowgreen , -2px -2px 35px yellowgreen ;
+}
+
+.menuBar li a:hover {
+    color: aqua;
+    text-decoration: line-through solid red;
+}
+
+.home {
+    display: block;
+    margin-top: 13vh;
+    margin-bottom: 0;
+    width: 100vw;
+    list-style: none;
+    border-bottom: 0.5px dotted yellowgreen;
+    background-color: #303030;
+    font-family: 'Clicker Script', cursive;
+    font-family: 'Tilt Neon', cursive;
+}
+
+.home img {
+    margin-left: 20vw;
+    width: 80vw;
+    list-style: none;
+}
+
+.home ul {
+    text-align: center;
+}
+
+.home ul li button {
+
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    padding: 2px;
+    background-color: #303030;
+    border: none;
+    text-decoration: underline rgb(84, 231, 241);
+    color: yellowgreen;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.home ul li span {
+   
+    color: aqua;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#weltxt{
+    color: aliceblue;
+    font-family: monospace;
+    font-style: italic right;
+    margin-left: 1vh;
+    font-size: 10vw;
+    border-bottom: 2px dotted aqua;
+    border-top: 2px dotted aqua;
+    padding-top: 10px;
+    border-radius: 20%;
+    padding-left: 6vw;
+    text-shadow: 1px 1px 15px pink , -1px -1px 15px pink;
+    letter-spacing: 20px;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    display: block;
+    padding-bottom: 10px;
+    
+}
+
+.about {
+    width: 100vw;
+    text-align: center;
+    background-color: #303030;
+    margin-top: 8vh;
+}
+
+.about p {
+    line-height: 1.6;
+    margin-top: 35px;
+    font-size: 1.3rem;
+    font-family: 'Clicker Script', cursive;
+    font-family: 'Tilt Neon', cursive;
+}
+
+.about span {
+   
+    color: aqua;
+    font-family: 'Clicker Script', cursive;
+font-family: 'Tilt Neon', cursive;
+}
+
+.about button {
+    margin-top: 7vh;
+    margin-right: -13vh;
+    background-color: #303030;
+    border: none;
+    text-decoration: underline rgb(84, 231, 241);
+    color: yellowgreen;
+    font-size: 1.2rem;
+    font-weight: 300;
+
+}
+
+.about img {
+    width: 200px;
+    float: right;
+    margin-top: 0px;
+    box-sizing: border-box;
+    filter: drop-shadow(0 0 10px red);
+
+}
+
+.about {
+    border-bottom: 0.5px dotted yellowgreen;
+    height: 72vh;
+}
+
+.timeline {
+    background-color: #303030;
+    width: 100vw;
+    margin-top: 9vh;
+    border-bottom: 0.5px dotted yellowgreen;
+}
+
+.time-groups {
+    margin-top: 6vh;
+    margin-left: 4vh;
+    margin-bottom: 7vh;
+}
+
+.time {
+    display: flex;
+    font-size: 1.2rem;
+    color: aqua;
+    font-family: 'Clicker Script', cursive;
+font-family: 'Tilt Neon', cursive;
+}
+
+.left {
+    margin-left: 5px;
+    border-left: 2px solid blue;
+}
+
+.right {
+
+    margin-left: 20px;
+
+}
+.time p {
+    font-size: 1.3rem;
+    line-height: 1.2;
+    margin-left: 15vw;
+    font-family: 'Clicker Script', cursive;
+    font-family: 'Tilt Neon', cursive;
+}
+
+.time p span {
+    color: aqua;
+    font-family: 'Clicker Script', cursive;
+    font-family: 'Tilt Neon', cursive;
+}
+
+.time h2 {
+    color: aqua;
+    font-size: 1.5rem;
+    padding-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.1cm;
+}
+
+.contbtn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contbtn button {
+    border: none;
+    background-color: #303030;
+    border: none;
+    text-decoration: underline rgb(84, 231, 241);
+    color: yellowgreen;
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: -30px;
+    margin-top: 6vh;
+    margin-bottom: 12vh;
+}
+
+.contbtn button span {
+    color: aqua;
+}
+
+.contact {
+    background-color: #303030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw 4vw;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #252525;
+}
+
+#name , #email , #phone , #message{
+    padding: 5px 10px 5px 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+     border: none;
+     border-bottom: 1px solid aqua;
+     background-color: #303030;
+    width: 80%;
+    height: 4vh;
+    margin-top: 7vh;
+    color: yellowgreen;
+}
+#name:focus , #email:focus , #phone:focus,#message:focus{
+    border-radius: 15px;
+}
+
+#message{
+        height: 7vh;
+}
+#button{
+    color: yellowgreen;
+    border: none;
+    background-color: #161616;
+    border-radius: 30px;
+    margin-bottom: 5vh;
+    padding: 10px 20px;
+    font-size: 1rem;
+    letter-spacing: 5px;
+    font-family: 'Clicker Script', cursive;
+    font-family: 'Tilt Neon', cursive;
+    margin-top: 6vh;
+}
+#button:hover{
+    border:none;
+    background-color: aqua;
+    color: #161616;
+    font-weight: 900;
+    font-family: 'Clicker Script', cursive;
+    font-family: 'Tilt Neon', cursive;
+    letter-spacing: 5px;
+    box-shadow: 2px 2px 10px aqua , -2px -2px 10px aqua;
+}
+form textarea{
+    height: 8vh;
+    /* width: 61.5vw; */
+}
+.footer {
+    background-color: #303030;
+    margin-top: 9vh;
+    width: 100%;
+    padding-bottom: 60px;
+    padding-top: 40px;
+    border-bottom: 1px solid yellowgreen;
+}
+
+.footer ul {
+    text-align: center;
+}
+
+.footer li {
+    display: inline;
+    list-style: none;
+}
+
+.footer img {
+    width: 15vw;
+}
+
+.instaimg {
+    width: 16px;
+    padding-bottom: 6px;
+}
+
+.footer span {
+    padding-bottom: 5px;
+    padding-left: -20px;
+}
+
+.footer p {
+    color: grey;
+    text-decoration: 1px underline grey;
+    font-size: 1rem;
+    font-family: serif;
+}
+
+@media screen and (min-width : 1000px) {
+    .navBtn {
+        display: none;
+    }
+
+    .menuBar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 70vw;
+        z-index: 100;
+        background: none;
+        border: none;
+        margin-right: 5vw;
+        margin-top: -3rem;
+    }
+
+    .menuBar ul li {
+        display: inline-block;
+        margin-left: 10vw;
+        padding-top: 3vh;
+    }
+
+    .home p,
+    .home ul li button {
+        font-size: 3rem;
+    }
+
+    .home img {
+        width: 30vw;
+        margin-left: 70vw;
+    }
+
+    .about p,
+    .about button {
+        font-size: 3rem;
+    }
+
+    .about h2 {
+        font-size: 4rem;
+    }
+
+    .about img {
+        width: 30vw;
+        margin-left: -60vw;
+        margin-top: -19vh;
+    }
+
+    .about button {
+        margin-left: -30vw;
+    }
+
+    .about {
+        height: 120vh;
+    }
+
+    .timeline h2 {
+        font-size: 4rem;
+    }
+
+    .time h2 {
+        font-size: 3.2rem;
+    }
+
+    .timeline p,
+    .timeline button {
+        font-size: 3rem;
+    }
+
+    .time-groups {
+        margin-left: 17vw;
+    }
+
+    .time-groups p {
+        margin-left: 20vw;
+    }
+
+    .contact p,
+    .contact input,
+    .contact textarea,
+    .contact button {
+        font-size: 3rem;
+        margin-top: 20vh;
+    }
+
+    .contact h2 {
+        font-size: 4rem;
+    }
+
+    .footer img {
+        width: 5vw;
+    }
+
+    .footer .instaimg {
+        padding-bottom: -8px;
+    }
+
+    .footer p {
+        font-size: 2rem;
+    }
+
+}

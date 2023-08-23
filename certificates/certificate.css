@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #303030;
+    overflow: scroll;
+}
+nav{
+    position: fixed;
+    top: 0;
+    background-color: #000000;
+    width: 100vw;
+    height: 5vh;
+    padding: 10px;
+    z-index: 99;
+    border-bottom:1px solid greenyellow ;
+    margin-top: 0;
+}
+nav ul li p{
+    border-bottom: 1px solid green;
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 9px red;
+    color: red;
+}
+.certificates{
+    margin-top: 14vh;
+    text-align: center;
+    line-height: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.certificates ul li a {
+    text-decoration: none;
+    font-style: italic;
+    font-size: large;
+    text-shadow: 2px 2px 20px red , -2px -2px 20px aqua , 2px 2px 5px red , -2px -2px 5px red;
+    color: bisque;
+    border-bottom: 2px solid red;
+    border-top: 1px solid aqua;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: 'Clicker Script', cursive;
+    font-family: 'Tilt Neon', cursive;
+}
+.certificates ul li a:hover{
+    color: aliceblue;
+    border-bottom: 3px dotted red;
+    border-top: 3px dotted aqua;
+    text-shadow:   2px 2px 5px red , -2px -2px 5px red , 2px 2px 20px red , -2px -2px 20px aqua;
+    box-shadow:  2px 2px 20px aqua , -2px -2px 20px aqua;
+}
+nav li{
+    display: inline-block;
+}
+#home a{
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 3rem;
+    padding-left: 2vw;
+    margin-top: -1vh;
+    border: none;
+    width: 30vw;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+    text-shadow: none;
+    font-family: 'Clicker Script', cursive;
+    font-family: 'Tilt Neon', cursive;
+}
+
+#home a:hover{
+ color: aqua;   
+}
+#heading{
+    margin-top: 0.5vh;
+    margin-left: 30vw;
+    font-size: 1.5rem;
+    text-shadow: none;
+    box-shadow: none;
+    font-family: 'Clicker Script', cursive;
+    font-family: 'Tilt Neon', cursive;
+}
